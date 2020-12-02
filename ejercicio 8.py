@@ -4,8 +4,7 @@
 #en blanco (compactar la frase). El programa principal imprimirá
 #por pantalla el resultado final.
 
-def cadena(frase):
-       
+def cadena(frase):    
     for i in range(len(frase)):
         if frase[i]==" ":
             frase1=frase.replace(frase[i],"")
